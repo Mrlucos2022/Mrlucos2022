@@ -156,3 +156,343 @@ You can click the Preview link to take a look at your changes.
     </div>
 </body>
 </html>
+
+Css.html👇👇👇
+/* General Styling */
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+
+
+/* The Header and Menu start */
+
+#header {
+    background-color:rgba(254, 255, 255, 1);
+    width: 100%;
+    height: 60px;
+}
+
+#logo{
+    width: 4rem;
+    height: 2rem;
+    margin: 10px 0px 0px 60px;
+}
+
+#sailLogo{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.963px;
+    margin: 0px 0px 0px 0px;
+    letter-spacing: -0.065em;
+    color: #3958A7;
+
+}
+
+#findHelp{
+    float: right;
+    margin: 10px 50px 0px 0px;
+    height: 2.1rem;
+    width: 6rem;
+    border-radius: 4.98px;
+    border: 1px solid #0134B7;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.4);
+}
+
+#signIn{
+    float: right;
+    width: 6rem;
+    height: 2.1rem;
+    color: #fff;
+    background-color:#3958A7;
+    border-radius: 4.98px;
+    margin: 10px 40px 0px 0px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+/* The Header and Menu end */
+
+
+
+/*  Tech Talent Section with Framed Image start      */
+
+.first{
+    width: 27%;
+    margin: 50px 0px 0px 80px;
+}
+
+.first h1{
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+}
+.first p{
+    line-height: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4961px;
+    color: #000000A6;
+
+}
+
+.first button{
+    background-color:#3958A7;
+    padding: 7px 90px 7px 7px;
+    margin-top: 15px;
+    color: #fff;
+    border-radius: 4.98px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.about-me img{
+    width: 25%;
+    height: 20rem;
+    float: right;
+    margin: -22rem 20rem 0px 0px;
+}
+
+/* Tech Talent Section with Framed Image end */
+
+
+
+/* Student's group Photo and Senator Abiru Innovation lab section start */
+
+.second-section{
+    background-color:rgba(234, 225, 16, 0.06);
+    height: 30rem;
+    margin-top: 5rem;
+}
+
+.second-section img{
+    width: 40%;
+    margin: 4rem 0rem 0rem 5rem;
+    height: 23rem;
+}
+
+.sub-second-section{
+    float: right;
+    width:35%;
+    margin: 3rem 10rem 0rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4961px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.fa-solid{
+    padding: 36px 15px 0 0;
+    color: #0055A3;
+}
+
+.fa-quote-left{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 225px;    
+    color: rgba(14, 14, 14, 0.18);
+}
+
+
+.sub-second-section span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #2752BF;
+}
+
+.fa-quote-right{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 225px;
+    padding-top: 8px;
+    padding-right: 5px;
+    color: rgba(14, 14, 14, 0.18);
+    float: right
+}
+/* Student's group Photo and Senator Abiru Innovation lab section end */
+
+
+
+
+
+
+.container{
+    box-sizing: border-box;
+    width: auto;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+
+
+ /* Call, Messsage and Location section start  */
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+   margin: 0px 1px 0 1px;
+   position: relative;
+   background: rgba(234, 225, 16, 0.06);
+   padding-bottom: 10px;
+}
+
+.child {
+    height: 78px;
+    background: #F9F9F9;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+    width: 70%;
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    display: flex;
+  }
+
+.child-about-container{
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+
+  }
+
+.child-about{
+     margin-top: 30px;
+  }
+
+
+
+.child-about1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 145.5%;
+    color: #000000;
+    opacity: 0.38;
+    margin: 0;
+
+  }
+
+.child-about2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 18px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.75);
+  }
+
+  /* Call, Messsage and Location section end  */
+
+
+
+
+
+ /* Footer section start  */
+
+.container3{
+    background: #F5F5F5;
+     display: flex;
+     justify-content: space-around;
+     padding-top: 150px;
+     padding-bottom: 100px;
+  }
+.footer-logo{
+    display: flex;
+    width: 80%;
+  }
+
+.logo{
+    width: 61px;
+   height: 36.12px;
+}
+
+.logo-header{
+   font-family: 'DM Sans', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30.963px;
+   margin-top: 0;
+   letter-spacing: -0.065em;
+   color: #3958A7;
+}
+
+
+.footer-icons{
+      display: flex;
+      justify-content: space-between;
+      height:35px
+  }
+
+  .fa-brands{
+    background: #FFFFFF;
+    color: #0055A3;
+    padding: 9px;
+    margin-right: 13px;
+    border-radius: 16px;
+    box-shadow: 0px 8.5923px 11.897px rgba(17, 19, 35, 0.08);
+}
+
+  .footer3{
+      width: 4%;
+  }
+
+  .footer{
+      width: 9%;
+  }
+
+  .anchor-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.1147px;
+    line-height: 18px;
+    color: #00A347;
+  }
+
+ .footer-anchor{
+     padding-top: 28px;
+ }
+
+a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    
+  }
+
+   /* Footer section end  */
